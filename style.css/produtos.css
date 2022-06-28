@@ -149,3 +149,31 @@ body {
   margin: 0 0 2em;
   text-align: center;
 }
+
+.video {
+  width: 560px;
+  margin: 2em auto;
+}
+
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.beneficios {
+  padding: 3em 0;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+.itens:first-child {
+  font-weight: bold;
+}
