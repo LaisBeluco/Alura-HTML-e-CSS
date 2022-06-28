@@ -96,8 +96,13 @@ footer {
 
 /*Página principal*/
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .principal,
-.beneficios {
+.beneficios,
+.mapa {
   width: 940px;
   margin: 0 auto;
   padding: 50px 0;
@@ -134,4 +139,13 @@ footer {
 
 .banner {
   width: 100%;
+}
+
+.mapa {
+  padding: 3em 0;
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
 }
