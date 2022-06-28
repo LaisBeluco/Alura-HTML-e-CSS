@@ -100,9 +100,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.principal,
-.beneficios,
-.mapa {
+.principal {
   width: 940px;
   margin: 0 auto;
   padding: 50px 0;
@@ -113,6 +111,11 @@ body {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+}
+
+.principal {
+  padding: 3em 0;
+  background-color: #fefefefe;
 }
 
 .principal p {
@@ -143,6 +146,12 @@ body {
 
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#fefefefe, #888888);
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa p {
@@ -168,6 +177,7 @@ body {
 
 .beneficios {
   padding: 3em 0;
+  background: #888888;
 }
 
 .itens {
@@ -176,4 +186,8 @@ body {
 
 .itens:first-child {
   font-weight: bold;
+}
+
+.itens:before {
+  content: "-";
 }
