@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-}
-
 header {
   background-color: #bbbb;
   padding: 20px 0;
@@ -138,6 +134,13 @@ body {
 
 .imagembeneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .banner {
@@ -190,4 +193,25 @@ body {
 
 .itens:before {
   content: "-";
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa,
+  .titulo-principal,
+  .video {
+    width: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+  }
+  .lista-beneficios,
+  .imagembeneficios {
+    width: 100%;
+  }
 }
